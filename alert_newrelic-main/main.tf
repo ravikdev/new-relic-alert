@@ -1,5 +1,5 @@
-resource "newrelic_alert_policy" "foo" {
-  name = "foo"
+resource "newrelic_alert_policy" "Test" {
+  name = "Test"
 }
 
 resource "newrelic_nrql_alert_condition" "foo" {
