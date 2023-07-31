@@ -6,7 +6,7 @@ resource "newrelic_nrql_alert_condition" "foo" {
 
   for_each = var.condition
 
-  account_id                     = 4045645
+  account_id                     = each.value.account_id
   policy_id                      = newrelic_alert_policy.foo.id
   type                           = static
   name                           = each.value.name
