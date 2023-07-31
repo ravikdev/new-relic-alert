@@ -1,7 +1,7 @@
 condition = {
 
   "first" = {
-    "account_id"                     = 4043843
+    "account_id"                     = 4045645
     "policy_id"                      = "newrelic_alert_policy.foo.id"
     "type"                           = "static"
     "name"                           = "foo"
