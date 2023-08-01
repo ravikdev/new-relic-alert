@@ -1,7 +1,7 @@
 condition = {
   "0" = {
 
-    account_id                     = 4078866
+    account_id                     = 4045645
     type                           = "static"
     name                           = "My_alert_condition1"
     description                    = "Alert when transactions are taking too long"
